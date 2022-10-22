@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LA4140
+D 0.5W AF Power Amplifier
+K power amplifier
+F http://pdf.datasheetcatalog.com/datasheet/sanyo/dis_pdf_e/LA4140.pdf
+$ENDCMP
+#
+#End Doc Library
