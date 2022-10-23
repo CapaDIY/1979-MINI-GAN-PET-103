@@ -1,0 +1,898 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 63517334
+P 1500 2550
+F 0 "J1" H 1608 2731 50  0000 C CNN
+F 1 "Keyboard 1" H 1608 2640 50  0000 C CNN
+F 2 "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm" H 1500 2550 50  0001 C CNN
+F 3 "~" H 1500 2550 50  0001 C CNN
+	1    1500 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 2550 2    50   Input ~ 0
+Y
+Wire Wire Line
+	1700 2550 1850 2550
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 6353DA85
+P 2200 2550
+F 0 "J2" H 2308 2731 50  0000 C CNN
+F 1 "Keyboard 2" H 2308 2640 50  0000 C CNN
+F 2 "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm" H 2200 2550 50  0001 C CNN
+F 3 "~" H 2200 2550 50  0001 C CNN
+	1    2200 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 2550 2    50   Input ~ 0
+P
+Wire Wire Line
+	2400 2550 2550 2550
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 635877CF
+P 1500 3650
+F 0 "SW1" V 1454 3748 50  0000 L CNN
+F 1 "F_01" V 1545 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 1500 3650 50  0001 C CNN
+F 3 "~" H 1500 3650 50  0001 C CNN
+	1    1500 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 3850 1500 4050
+$Comp
+L Device:R_Small_US R1
+U 1 1 63592107
+P 1650 3250
+F 0 "R1" H 1700 3300 50  0000 L CNN
+F 1 "5K" H 1700 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1650 3250 50  0001 C CNN
+F 3 "~" H 1650 3250 50  0001 C CNN
+	1    1650 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 6359C365
+P 1850 3650
+F 0 "SW2" V 1804 3748 50  0000 L CNN
+F 1 "F#_01" V 1895 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 1850 3650 50  0001 C CNN
+F 3 "~" H 1850 3650 50  0001 C CNN
+	1    1850 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 3850 1850 4050
+$Comp
+L Device:R_Small_US R2
+U 1 1 6359C36C
+P 2000 3250
+F 0 "R2" H 2050 3300 50  0000 L CNN
+F 1 "4K6" H 2050 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2000 3250 50  0001 C CNN
+F 3 "~" H 2000 3250 50  0001 C CNN
+	1    2000 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 635A0602
+P 2200 3650
+F 0 "SW3" V 2154 3748 50  0000 L CNN
+F 1 "G_01" V 2245 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 2200 3650 50  0001 C CNN
+F 3 "~" H 2200 3650 50  0001 C CNN
+	1    2200 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3850 2200 4050
+$Comp
+L Device:R_Small_US R3
+U 1 1 635A0609
+P 2350 3250
+F 0 "R3" H 2400 3300 50  0000 L CNN
+F 1 "4K6" H 2400 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2350 3250 50  0001 C CNN
+F 3 "~" H 2350 3250 50  0001 C CNN
+	1    2350 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 635A4B24
+P 2550 3650
+F 0 "SW4" V 2504 3748 50  0000 L CNN
+F 1 "G#_01" V 2595 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 2550 3650 50  0001 C CNN
+F 3 "~" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 3850 2550 4050
+$Comp
+L Device:R_Small_US R4
+U 1 1 635A4B2B
+P 2700 3250
+F 0 "R4" H 2750 3300 50  0000 L CNN
+F 1 "4K" H 2750 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2700 3250 50  0001 C CNN
+F 3 "~" H 2700 3250 50  0001 C CNN
+	1    2700 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 635B7BA1
+P 2900 3650
+F 0 "SW5" V 2854 3748 50  0000 L CNN
+F 1 "A_01" V 2945 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 2900 3650 50  0001 C CNN
+F 3 "~" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3850 2900 4050
+$Comp
+L Device:R_Small_US R5
+U 1 1 635B7BA8
+P 3050 3250
+F 0 "R5" H 3100 3300 50  0000 L CNN
+F 1 "4K" H 3100 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3050 3250 50  0001 C CNN
+F 3 "~" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 635B7BB0
+P 3250 3650
+F 0 "SW6" V 3204 3748 50  0000 L CNN
+F 1 "A#_01" V 3295 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 3250 3650 50  0001 C CNN
+F 3 "~" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3850 3250 4050
+$Comp
+L Device:R_Small_US R6
+U 1 1 635B7BB7
+P 3400 3250
+F 0 "R6" H 3450 3300 50  0000 L CNN
+F 1 "3K5" H 3450 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3400 3250 50  0001 C CNN
+F 3 "~" H 3400 3250 50  0001 C CNN
+	1    3400 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 635B7BBF
+P 3600 3650
+F 0 "SW7" V 3554 3748 50  0000 L CNN
+F 1 "B_01" V 3645 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 3600 3650 50  0001 C CNN
+F 3 "~" H 3600 3650 50  0001 C CNN
+	1    3600 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3850 3600 4050
+$Comp
+L Device:R_Small_US R7
+U 1 1 635B7BC6
+P 3750 3250
+F 0 "R7" H 3800 3300 50  0000 L CNN
+F 1 "3K5" H 3800 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3750 3250 50  0001 C CNN
+F 3 "~" H 3750 3250 50  0001 C CNN
+	1    3750 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 635B7BCE
+P 3950 3650
+F 0 "SW8" V 3904 3748 50  0000 L CNN
+F 1 "C_01" V 3995 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 3950 3650 50  0001 C CNN
+F 3 "~" H 3950 3650 50  0001 C CNN
+	1    3950 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3850 3950 4050
+$Comp
+L Device:R_Small_US R8
+U 1 1 635B7BD5
+P 4100 3250
+F 0 "R8" H 4150 3300 50  0000 L CNN
+F 1 "3K2" H 4150 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4100 3250 50  0001 C CNN
+F 3 "~" H 4100 3250 50  0001 C CNN
+	1    4100 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 635BF292
+P 4300 3650
+F 0 "SW9" V 4254 3748 50  0000 L CNN
+F 1 "C#_01" V 4345 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 4300 3650 50  0001 C CNN
+F 3 "~" H 4300 3650 50  0001 C CNN
+	1    4300 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3850 4300 4050
+$Comp
+L Device:R_Small_US R9
+U 1 1 635BF299
+P 4450 3250
+F 0 "R9" H 4500 3300 50  0000 L CNN
+F 1 "3K2" H 4500 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 635BF2A1
+P 4650 3650
+F 0 "SW10" V 4604 3748 50  0000 L CNN
+F 1 "D_01" V 4695 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 4650 3650 50  0001 C CNN
+F 3 "~" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3850 4650 4050
+$Comp
+L Device:R_Small_US R10
+U 1 1 635BF2A8
+P 4800 3250
+F 0 "R10" H 4850 3300 50  0000 L CNN
+F 1 "3K" H 4850 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4800 3250 50  0001 C CNN
+F 3 "~" H 4800 3250 50  0001 C CNN
+	1    4800 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 635BF2B0
+P 5000 3650
+F 0 "SW11" V 4954 3748 50  0000 L CNN
+F 1 "D#_01" V 5045 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 5000 3650 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3850 5000 4050
+$Comp
+L Device:R_Small_US R11
+U 1 1 635BF2B7
+P 5150 3250
+F 0 "R11" H 5200 3300 50  0000 L CNN
+F 1 "2K8" H 5200 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5150 3250 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 635BF2BF
+P 5350 3650
+F 0 "SW12" V 5304 3748 50  0000 L CNN
+F 1 "E_01" V 5395 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 5350 3650 50  0001 C CNN
+F 3 "~" H 5350 3650 50  0001 C CNN
+	1    5350 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3850 5350 4050
+$Comp
+L Device:R_Small_US R12
+U 1 1 635BF2C6
+P 5500 3250
+F 0 "R12" H 5550 3300 50  0000 L CNN
+F 1 "2K6" H 5550 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5500 3250 50  0001 C CNN
+F 3 "~" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 635E589D
+P 5700 3650
+F 0 "SW13" V 5654 3748 50  0000 L CNN
+F 1 "F_02" V 5745 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 5700 3650 50  0001 C CNN
+F 3 "~" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3850 5700 4050
+$Comp
+L Device:R_Small_US R13
+U 1 1 635E58A4
+P 5850 3250
+F 0 "R13" H 5900 3300 50  0000 L CNN
+F 1 "2K5" H 5900 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5850 3250 50  0001 C CNN
+F 3 "~" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 635E58AC
+P 6050 3650
+F 0 "SW14" V 6004 3748 50  0000 L CNN
+F 1 "F#_02" V 6095 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 6050 3650 50  0001 C CNN
+F 3 "~" H 6050 3650 50  0001 C CNN
+	1    6050 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 3850 6050 4050
+$Comp
+L Device:R_Small_US R14
+U 1 1 635E58B3
+P 6200 3250
+F 0 "R14" H 6250 3300 50  0000 L CNN
+F 1 "2K5" H 6250 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6200 3250 50  0001 C CNN
+F 3 "~" H 6200 3250 50  0001 C CNN
+	1    6200 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 635E58BB
+P 6400 3650
+F 0 "SW15" V 6354 3748 50  0000 L CNN
+F 1 "G_02" V 6445 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 6400 3650 50  0001 C CNN
+F 3 "~" H 6400 3650 50  0001 C CNN
+	1    6400 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 3850 6400 4050
+$Comp
+L Device:R_Small_US R15
+U 1 1 635E58C2
+P 6550 3250
+F 0 "R15" H 6600 3300 50  0000 L CNN
+F 1 "2K3" H 6600 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6550 3250 50  0001 C CNN
+F 3 "~" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 635E58CA
+P 6750 3650
+F 0 "SW16" V 6704 3748 50  0000 L CNN
+F 1 "G#_02" V 6795 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 6750 3650 50  0001 C CNN
+F 3 "~" H 6750 3650 50  0001 C CNN
+	1    6750 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3850 6750 4050
+$Comp
+L Device:R_Small_US R16
+U 1 1 635E58D1
+P 6900 3250
+F 0 "R16" H 6950 3300 50  0000 L CNN
+F 1 "2K" H 6950 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6900 3250 50  0001 C CNN
+F 3 "~" H 6900 3250 50  0001 C CNN
+	1    6900 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 635E58D9
+P 7100 3650
+F 0 "SW17" V 7054 3748 50  0000 L CNN
+F 1 "A_02" V 7145 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 7100 3650 50  0001 C CNN
+F 3 "~" H 7100 3650 50  0001 C CNN
+	1    7100 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3850 7100 4050
+$Comp
+L Device:R_Small_US R17
+U 1 1 635E58E0
+P 7250 3250
+F 0 "R17" H 7300 3300 50  0000 L CNN
+F 1 "2K" H 7300 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7250 3250 50  0001 C CNN
+F 3 "~" H 7250 3250 50  0001 C CNN
+	1    7250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 635E58E8
+P 7450 3650
+F 0 "SW18" V 7404 3748 50  0000 L CNN
+F 1 "A#_02" V 7495 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 7450 3650 50  0001 C CNN
+F 3 "~" H 7450 3650 50  0001 C CNN
+	1    7450 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 3850 7450 4050
+$Comp
+L Device:R_Small_US R18
+U 1 1 635E58EF
+P 7600 3250
+F 0 "R18" H 7650 3300 50  0000 L CNN
+F 1 "1K9" H 7650 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7600 3250 50  0001 C CNN
+F 3 "~" H 7600 3250 50  0001 C CNN
+	1    7600 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 635E58F7
+P 7800 3650
+F 0 "SW19" V 7754 3748 50  0000 L CNN
+F 1 "B_02" V 7845 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 7800 3650 50  0001 C CNN
+F 3 "~" H 7800 3650 50  0001 C CNN
+	1    7800 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 3850 7800 4050
+$Comp
+L Device:R_Small_US R19
+U 1 1 635E58FE
+P 7950 3250
+F 0 "R19" H 8000 3300 50  0000 L CNN
+F 1 "1K8" H 8000 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7950 3250 50  0001 C CNN
+F 3 "~" H 7950 3250 50  0001 C CNN
+	1    7950 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 635E5906
+P 8150 3650
+F 0 "SW20" V 8104 3748 50  0000 L CNN
+F 1 "C_02" V 8195 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 8150 3650 50  0001 C CNN
+F 3 "~" H 8150 3650 50  0001 C CNN
+	1    8150 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 3850 8150 4050
+$Comp
+L Device:R_Small_US R20
+U 1 1 635E590D
+P 8300 3250
+F 0 "R20" H 8350 3300 50  0000 L CNN
+F 1 "1K7" H 8350 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8300 3250 50  0001 C CNN
+F 3 "~" H 8300 3250 50  0001 C CNN
+	1    8300 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW21
+U 1 1 635E5915
+P 8500 3650
+F 0 "SW21" V 8454 3748 50  0000 L CNN
+F 1 "C#_02" V 8545 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 8500 3650 50  0001 C CNN
+F 3 "~" H 8500 3650 50  0001 C CNN
+	1    8500 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3850 8500 4050
+$Comp
+L Device:R_Small_US R21
+U 1 1 635E591C
+P 8650 3250
+F 0 "R21" H 8700 3300 50  0000 L CNN
+F 1 "1K5" H 8700 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8650 3250 50  0001 C CNN
+F 3 "~" H 8650 3250 50  0001 C CNN
+	1    8650 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW22
+U 1 1 635E5924
+P 8850 3650
+F 0 "SW22" V 8804 3748 50  0000 L CNN
+F 1 "D_02" V 8895 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 8850 3650 50  0001 C CNN
+F 3 "~" H 8850 3650 50  0001 C CNN
+	1    8850 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 3850 8850 4050
+$Comp
+L Device:R_Small_US R22
+U 1 1 635E592B
+P 9000 3250
+F 0 "R22" H 9050 3300 50  0000 L CNN
+F 1 "1K4" H 9050 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9000 3250 50  0001 C CNN
+F 3 "~" H 9000 3250 50  0001 C CNN
+	1    9000 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW23
+U 1 1 635E5933
+P 9200 3650
+F 0 "SW23" V 9154 3748 50  0000 L CNN
+F 1 "D#_02" V 9245 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 9200 3650 50  0001 C CNN
+F 3 "~" H 9200 3650 50  0001 C CNN
+	1    9200 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 3850 9200 4050
+$Comp
+L Device:R_Small_US R23
+U 1 1 635E593A
+P 9350 3250
+F 0 "R23" H 9400 3300 50  0000 L CNN
+F 1 "1K4" H 9400 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9350 3250 50  0001 C CNN
+F 3 "~" H 9350 3250 50  0001 C CNN
+	1    9350 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW24
+U 1 1 635E5942
+P 9550 3650
+F 0 "SW24" V 9504 3748 50  0000 L CNN
+F 1 "E_02" V 9595 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 9550 3650 50  0001 C CNN
+F 3 "~" H 9550 3650 50  0001 C CNN
+	1    9550 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 3850 9550 4050
+$Comp
+L Device:R_Small_US R24
+U 1 1 635E5949
+P 9700 3250
+F 0 "R24" H 9750 3300 50  0000 L CNN
+F 1 "1K3" H 9750 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9700 3250 50  0001 C CNN
+F 3 "~" H 9700 3250 50  0001 C CNN
+	1    9700 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 4050 9550 4050
+Connection ~ 1500 4050
+Connection ~ 1850 4050
+Wire Wire Line
+	1850 4050 1500 4050
+Connection ~ 2200 4050
+Wire Wire Line
+	2200 4050 1850 4050
+Connection ~ 2550 4050
+Wire Wire Line
+	2550 4050 2200 4050
+Connection ~ 2900 4050
+Wire Wire Line
+	2900 4050 2550 4050
+Connection ~ 3250 4050
+Wire Wire Line
+	3250 4050 2900 4050
+Connection ~ 3600 4050
+Wire Wire Line
+	3600 4050 3250 4050
+Connection ~ 3950 4050
+Wire Wire Line
+	3950 4050 3600 4050
+Connection ~ 4300 4050
+Wire Wire Line
+	4300 4050 3950 4050
+Connection ~ 4650 4050
+Wire Wire Line
+	4650 4050 4300 4050
+Connection ~ 5000 4050
+Wire Wire Line
+	5000 4050 4650 4050
+Connection ~ 5350 4050
+Wire Wire Line
+	5350 4050 5000 4050
+Connection ~ 5700 4050
+Wire Wire Line
+	5700 4050 5350 4050
+Connection ~ 6050 4050
+Wire Wire Line
+	6050 4050 5700 4050
+Connection ~ 6400 4050
+Wire Wire Line
+	6400 4050 6050 4050
+Connection ~ 6750 4050
+Wire Wire Line
+	6750 4050 6400 4050
+Connection ~ 7100 4050
+Wire Wire Line
+	7100 4050 6750 4050
+Connection ~ 7450 4050
+Wire Wire Line
+	7450 4050 7100 4050
+Connection ~ 7800 4050
+Wire Wire Line
+	7800 4050 7450 4050
+Connection ~ 8150 4050
+Wire Wire Line
+	8150 4050 7800 4050
+Connection ~ 8500 4050
+Wire Wire Line
+	8500 4050 8150 4050
+Connection ~ 8850 4050
+Wire Wire Line
+	8850 4050 8500 4050
+Connection ~ 9200 4050
+Wire Wire Line
+	9200 4050 8850 4050
+Connection ~ 9550 4050
+Wire Wire Line
+	9550 4050 9200 4050
+Text GLabel 1300 4050 0    50   Input ~ 0
+P
+Wire Wire Line
+	1300 4050 1500 4050
+Wire Wire Line
+	3950 3250 3950 3450
+Wire Wire Line
+	3600 3250 3600 3450
+Wire Wire Line
+	3250 3250 3250 3450
+Wire Wire Line
+	2900 3250 2900 3450
+Wire Wire Line
+	2550 3250 2550 3450
+Wire Wire Line
+	2200 3250 2200 3450
+Wire Wire Line
+	1850 3250 1850 3450
+Wire Wire Line
+	1750 3250 1850 3250
+Wire Wire Line
+	1550 3250 1500 3250
+Wire Wire Line
+	1500 3250 1500 3450
+Wire Wire Line
+	3650 3250 3600 3250
+Wire Wire Line
+	4300 3250 4300 3450
+Wire Wire Line
+	4650 3250 4650 3450
+Wire Wire Line
+	5000 3250 5000 3450
+Wire Wire Line
+	5350 3250 5350 3450
+Wire Wire Line
+	5700 3250 5700 3450
+Wire Wire Line
+	6050 3250 6050 3450
+Wire Wire Line
+	6400 3250 6400 3450
+Wire Wire Line
+	6750 3250 6750 3450
+Wire Wire Line
+	7100 3250 7100 3450
+Wire Wire Line
+	7450 3250 7450 3450
+Wire Wire Line
+	7800 3250 7800 3450
+Wire Wire Line
+	8150 3250 8150 3450
+Wire Wire Line
+	8500 3250 8500 3450
+Wire Wire Line
+	8850 3250 8850 3450
+Wire Wire Line
+	9200 3250 9200 3450
+Wire Wire Line
+	9550 3250 9550 3450
+Wire Wire Line
+	1900 3250 1850 3250
+Connection ~ 1850 3250
+Wire Wire Line
+	2100 3250 2200 3250
+Wire Wire Line
+	2200 3250 2250 3250
+Connection ~ 2200 3250
+Wire Wire Line
+	2450 3250 2550 3250
+Wire Wire Line
+	9950 3250 9900 3250
+Text GLabel 10250 3250 2    50   Input ~ 0
+Y
+$Comp
+L Device:R_Small_US R25
+U 1 1 635EF417
+P 10050 3250
+F 0 "R25" H 10100 3300 50  0000 L CNN
+F 1 "22K" H 10100 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 10050 3250 50  0001 C CNN
+F 3 "~" H 10050 3250 50  0001 C CNN
+	1    10050 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 3850 9900 4050
+$Comp
+L Switch:SW_SPST SW25
+U 1 1 635EF410
+P 9900 3650
+F 0 "SW25" V 9854 3748 50  0000 L CNN
+F 1 "F_03" V 9945 3748 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" H 9900 3650 50  0001 C CNN
+F 3 "~" H 9900 3650 50  0001 C CNN
+	1    9900 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 3250 2600 3250
+Connection ~ 2550 3250
+Wire Wire Line
+	2800 3250 2900 3250
+Connection ~ 2900 3250
+Wire Wire Line
+	2900 3250 2950 3250
+Wire Wire Line
+	3150 3250 3250 3250
+Connection ~ 3250 3250
+Wire Wire Line
+	3250 3250 3300 3250
+Wire Wire Line
+	3500 3250 3600 3250
+Connection ~ 3600 3250
+Wire Wire Line
+	3850 3250 3950 3250
+Connection ~ 3950 3250
+Wire Wire Line
+	3950 3250 4000 3250
+Wire Wire Line
+	4200 3250 4300 3250
+Connection ~ 4300 3250
+Wire Wire Line
+	4300 3250 4350 3250
+Wire Wire Line
+	4550 3250 4650 3250
+Connection ~ 4650 3250
+Wire Wire Line
+	4650 3250 4700 3250
+Wire Wire Line
+	4900 3250 5000 3250
+Wire Wire Line
+	5050 3250 5000 3250
+Connection ~ 5000 3250
+Wire Wire Line
+	5250 3250 5350 3250
+Connection ~ 5350 3250
+Wire Wire Line
+	5350 3250 5400 3250
+Wire Wire Line
+	5600 3250 5700 3250
+Connection ~ 5700 3250
+Wire Wire Line
+	5700 3250 5750 3250
+Wire Wire Line
+	5950 3250 6050 3250
+Connection ~ 6050 3250
+Wire Wire Line
+	6050 3250 6100 3250
+Wire Wire Line
+	6300 3250 6400 3250
+Connection ~ 6400 3250
+Wire Wire Line
+	6400 3250 6450 3250
+Wire Wire Line
+	6650 3250 6750 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	6750 3250 6800 3250
+Wire Wire Line
+	7000 3250 7100 3250
+Connection ~ 7100 3250
+Wire Wire Line
+	7100 3250 7150 3250
+Wire Wire Line
+	7350 3250 7450 3250
+Connection ~ 7450 3250
+Wire Wire Line
+	7450 3250 7500 3250
+Wire Wire Line
+	7700 3250 7800 3250
+Connection ~ 7800 3250
+Wire Wire Line
+	7800 3250 7850 3250
+Wire Wire Line
+	8050 3250 8150 3250
+Connection ~ 8150 3250
+Wire Wire Line
+	8150 3250 8200 3250
+Wire Wire Line
+	8400 3250 8500 3250
+Connection ~ 8500 3250
+Wire Wire Line
+	8500 3250 8550 3250
+Wire Wire Line
+	8750 3250 8850 3250
+Connection ~ 8850 3250
+Wire Wire Line
+	8850 3250 8900 3250
+Wire Wire Line
+	9100 3250 9200 3250
+Connection ~ 9200 3250
+Wire Wire Line
+	9200 3250 9250 3250
+Wire Wire Line
+	9450 3250 9550 3250
+Connection ~ 9550 3250
+Wire Wire Line
+	9550 3250 9600 3250
+Wire Wire Line
+	9800 3250 9900 3250
+Wire Wire Line
+	9900 3250 9900 3450
+Wire Wire Line
+	10150 3250 10250 3250
+Connection ~ 9900 3250
+$EndSCHEMATC
